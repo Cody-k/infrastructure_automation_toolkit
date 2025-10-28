@@ -1,0 +1,65 @@
+{
+  "alerts": [
+    {
+      "id": "cpu_high_20251028_100517",
+      "type": "cpu_high",
+      "severity": "high",
+      "message": "CPU at 90%",
+      "value": 90.0,
+      "threshold": 85.0,
+      "created": "2025-10-28T10:05:17.767702",
+      "acknowledged": false
+    },
+    {
+      "id": "memory_high_20251028_100517",
+      "type": "memory_high",
+      "severity": "high",
+      "message": "Memory at 95%",
+      "value": 95.0,
+      "threshold": 90.0,
+      "created": "2025-10-28T10:05:17.769206",
+      "acknowledged": false
+    },
+    {
+      "id": "test1_20251028_100517",
+      "type": "test1",
+      "severity": "low",
+      "message": "Test 1",
+      "value": 10.0,
+      "threshold": 5.0,
+      "created": "2025-10-28T10:05:17.772359",
+      "acknowledged": false
+    },
+    {
+      "id": "test2_20251028_100517",
+      "type": "test2",
+      "severity": "high",
+      "message": "Test 2",
+      "value": 90.0,
+      "threshold": 85.0,
+      "created": "2025-10-28T10:05:17.772580",
+      "acknowledged": false
+    },
+    {
+      "id": "test3_20251028_100517",
+      "type": "test3",
+      "severity": "critical",
+      "message": "Test 3",
+      "value": 95.0,
+      "threshold": 90.0,
+      "created": "2025-10-28T10:05:17.772783",
+      "acknowledged": false
+    },
+    {
+      "id": "persist_test_20251028_100517",
+      "type": "persist_test",
+      "severity": "medium",
+      "message": "Persistence test",
+      "value": 50.0,
+      "threshold": 40.0,
+      "created": "2025-10-28T10:05:17.775905",
+      "acknowledged": false
+    }
+  ],
+  "updated": "2025-10-28T10:08:30.216185"
+}

@@ -1,5 +1,6 @@
-"""Monitoring utilities | Resource trend analysis and predictions"""
+"""Monitoring utilities | Metrics collection, trend analysis, predictions"""
 
-from .resource_analyzer import ResourceAnalyzer, ResourceTrend, Prediction
+from .analyzer import ResourceAnalyzer, ResourceTrend, Prediction
+from .system_monitor import SystemMonitor, SystemMetrics
 
-__all__ = ["ResourceAnalyzer", "ResourceTrend", "Prediction"]
+__all__ = ["ResourceAnalyzer", "ResourceTrend", "Prediction", "SystemMonitor", "SystemMetrics"]

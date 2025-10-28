@@ -1,0 +1,26 @@
+{
+  "metrics": [
+    {
+      "timestamp": "2025-10-28T10:05:20.972292",
+      "cpu_percent": 67.9,
+      "memory_percent": 21.3,
+      "disk_percent": 52.6,
+      "load_average": 6.99072265625
+    },
+    {
+      "timestamp": "2025-10-28T10:06:17.286159",
+      "cpu_percent": 71.3,
+      "memory_percent": 21.2,
+      "disk_percent": 52.6,
+      "load_average": 6.48779296875
+    },
+    {
+      "timestamp": "2025-10-28T10:08:33.358460",
+      "cpu_percent": 72.7,
+      "memory_percent": 21.9,
+      "disk_percent": 52.6,
+      "load_average": 9.12939453125
+    }
+  ],
+  "updated": "2025-10-28T10:08:33.359358"
+}

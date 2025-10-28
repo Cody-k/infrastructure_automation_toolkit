@@ -1,4 +1,4 @@
-"""Docker management | Container orchestration and monitoring"""
+"""Docker management | Container orchestration"""
 
 from .manager import DockerManager, ContainerInfo, ContainerStats
 

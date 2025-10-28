@@ -44,4 +44,4 @@ def test_generate_recommendations():
     for rec in recommendations:
         assert "resource" in rec
         assert "priority" in rec
-        assert rec["priority"] in ["high", "medium", "low"]
+        assert rec["priority"] in ["critical", "high", "medium", "low"]

@@ -1,28 +1,69 @@
 # Changelog
 
-## [1.0.0] - 2025-10-27
+## [1.0.0] - 2025-10-28
+
+### Complete Sophisticated Implementation
+
+**Extracted 1,199 LOC from 2,637 LOC homelab source (45% extraction)**
 
 ### Added
-- Docker/Podman container management with detailed stats
-- Resource trend analysis (24-hour historical tracking)
-- Predictive forecasting (time-to-threshold calculations)
-- Smart optimization recommendations (priority-based, actionable)
-- Resource hog identification (CPU/memory threshold detection)
-- Container health monitoring
-- Linear regression for trend analysis
-- Confidence scoring for predictions
-- Comprehensive test suite (12 tests)
 
-### Features
-- Trend analysis with direction detection (increasing/decreasing/stable)
-- Volatility calculations for resource stability
-- 7-day resource projections
-- Priority-based recommendations (high/medium/low)
-- Zero external dependencies (uses system tools)
+**Container Management:**
+- Async Docker operations with python-docker SDK
+- Detailed stats parsing (CPU delta, memory, network I/O, block I/O)
+- Container lifecycle operations (start, stop, restart, pause, unpause)
+- Health check monitoring with failing streak tracking
+- Log retrieval
+- Port and network inspection
+- Cleanup automation (stopped containers, dangling images)
+
+**Resource Analysis:**
+- 24-hour historical trend tracking with persistence
+- Linear regression for trend calculation
+- Volatility analysis (coefficient of variation)
+- Direction detection (increasing/decreasing/stable)
+- Predictive forecasting with time-to-threshold
+- 7-day and 30-day resource projections
+- Confidence scoring based on data stability
+
+**System Monitoring:**
+- Comprehensive metrics with psutil (CPU, memory, swap, disk, network)
+- Per-core CPU usage
+- Detailed memory stats (active, inactive, cached, buffers)
+- Network interface tracking
+- Top processes by CPU and memory
+- Disk partition analysis
+- Load average monitoring
+- Threshold checking with configurable limits
+
+**Alert System:**
+- Severity-based alerts (info, low, medium, high, critical)
+- Alert persistence and deduplication
+- Acknowledgment tracking
+- Automatic cleanup of old alerts
+
+**Smart Recommendations:**
+- Priority-based suggestions (critical, high, medium, low)
+- Memory, disk, and container overhead analysis
+- Actionable optimization steps with impact assessment
+
+### Testing
+- 31 comprehensive tests (all passing)
+- Docker manager tests (4 tests)
+- System monitor tests (7 tests)
+- Resource analyzer tests (8 tests)
+- Alert manager tests (8 tests)
+- Optimizer tests (4 tests)
+
+### Technologies
+- psutil for system metrics
+- docker SDK for container management
+- dataclasses for structured data
 - Type hints throughout
-- Dataclasses for structured data
+- JSON persistence
 
-### Background
+### Source Attribution
+- docker_manager_v2.py (694 LOC)
+- resource_analyzer_v2.py (803 LOC)
+- system_monitor_v2.py (786 LOC)
 - Patterns from 7-node homelab (11 containers, 6+ weeks uptime)
-- Intelligent analysis capabilities from resource_analyzer_v2 (29k LOC source)
-- Container management from docker_manager_v2 (26k LOC source)
