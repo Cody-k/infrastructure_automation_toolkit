@@ -4,7 +4,7 @@ DevOps utilities for Docker/Podman management and system monitoring.
 
 ## Overview
 
-Production-tested automation for infrastructure operations. Patterns extracted from managing 7-node homelab with 11 containers and 6+ weeks continuous uptime.
+Automation for infrastructure operations. Patterns extracted from managing 7-node homelab with 11 containers and 6+ weeks continuous uptime.
 
 ## Features
 
@@ -65,7 +65,7 @@ tests/                             # Test suite
 examples/                          # Workflows
 ```
 
-## Production Use
+## Background
 
 Patterns from infrastructure managing:
 - 7-node network (workstation, server, NAS, RPi)

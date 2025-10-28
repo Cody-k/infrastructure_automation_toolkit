@@ -7,7 +7,7 @@
 - Resource monitoring (CPU, memory, disk, load average)
 - System health checks (failed services, disk space, temperatures)
 - Threshold alerting (configurable warning levels)
-- Production example (infrastructure monitoring workflow)
+- Infrastructure monitoring example
 - Comprehensive test suite (9 tests)
 
 ### Features
@@ -17,7 +17,7 @@
 - Type hints throughout
 - Clean, minimal code
 
-### Production Use
+### Background
 - Patterns from 7-node homelab (11 containers, 6+ weeks uptime)
 - Automated monitoring and recovery
 - Threshold-based alerting
