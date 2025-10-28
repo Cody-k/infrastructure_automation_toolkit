@@ -1,16 +1,18 @@
-"""Infrastructure Automation Toolkit | DevOps utilities for system and container management"""
+"""Infrastructure Automation Toolkit | DevOps utilities for container and system management"""
 
-from .docker.container_manager import ContainerManager, ContainerStatus
-from .monitoring.resource_monitor import ResourceMonitor, SystemMetrics
-from .system.health_check import SystemHealthCheck, HealthStatus
+from .docker.manager import DockerManager, ContainerInfo, ContainerStats
+from .monitoring.resource_analyzer import ResourceAnalyzer, ResourceTrend, Prediction
+from .analysis.optimizer import ResourceOptimizer, Optimization
 
 __version__ = "1.0.0"
 
 __all__ = [
-    "ContainerManager",
-    "ContainerStatus",
-    "ResourceMonitor",
-    "SystemMetrics",
-    "SystemHealthCheck",
-    "HealthStatus",
+    "DockerManager",
+    "ContainerInfo",
+    "ContainerStats",
+    "ResourceAnalyzer",
+    "ResourceTrend",
+    "Prediction",
+    "ResourceOptimizer",
+    "Optimization",
 ]

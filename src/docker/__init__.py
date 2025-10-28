@@ -1,5 +1,5 @@
-"""Docker utilities | Container management and monitoring"""
+"""Docker management | Container orchestration and monitoring"""
 
-from .container_manager import ContainerManager, ContainerStatus
+from .manager import DockerManager, ContainerInfo, ContainerStats
 
-__all__ = ["ContainerManager", "ContainerStatus"]
+__all__ = ["DockerManager", "ContainerInfo", "ContainerStats"]
