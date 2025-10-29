@@ -161,13 +161,13 @@ pytest -v  # 31 tests, all passing
 
 ## Background
 
-Extracted from 2,637 LOC homelab infrastructure managing:
+Patterns from homelab infrastructure managing:
 - 7-node network (workstation, server, NAS, RPi)
 - 11 Docker containers with Portainer
 - 6+ weeks continuous uptime
 - Automated monitoring and recovery
 
-Source: docker_manager_v2 (694 LOC), resource_analyzer_v2 (803 LOC), system_monitor_v2 (786 LOC)
+**Stats:** 1,199 LOC · 31 tests · Python 3.11+
 
 ## Technologies
 

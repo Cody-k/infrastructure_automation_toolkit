@@ -4,7 +4,7 @@
 
 ### Complete Sophisticated Implementation
 
-**Extracted 1,199 LOC from 2,637 LOC homelab source (45% extraction)**
+**DevOps utilities (1,199 LOC)**
 
 ### Added
 
@@ -62,8 +62,5 @@
 - Type hints throughout
 - JSON persistence
 
-### Source Attribution
-- docker_manager_v2.py (694 LOC)
-- resource_analyzer_v2.py (803 LOC)
-- system_monitor_v2.py (786 LOC)
+### Background
 - Patterns from 7-node homelab (11 containers, 6+ weeks uptime)
